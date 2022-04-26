@@ -1,0 +1,57 @@
+body {
+	background-image: url(https://media.istockphoto.com/vectors/winter-in-the-forest-with-fir-trees-delicate-background-for-design-on-vector-id1352345320?b=1&k=20&m=1352345320&s=612x612&w=0&h=FXGvGtHc4jib20TPveWyHT7cXwAmETFuCNni-S6gJ7Y=);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.postcard {
+	background-image: url(https://www.atozkidsstuff.com/images/toddlers/winter/winter-snowman.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	border: 1px solid black;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+}
+.postcard-header h1 {
+	width: 1000px;
+	margin: 0%;
+	font-family: "Square Peg", cursive;
+}
+.postcard-body {
+	display: flex;
+	height: 450px;
+}
+.body-left p {
+	width: 520px;
+	height: 100%;
+	font-family: "Noto Sans", sans-serif;
+	font-size: large;
+	color: black;
+}
+.body-right {
+	width: 273px;
+}
+.body-right input {
+	width: 273px;
+}
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer a {
+	padding: 2px;
+	border-radius: 4px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+}
+.postcard-footer a:hover {
+	background-color: rgb(69, 69, 69);
+	color: white;
+}
